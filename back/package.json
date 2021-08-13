@@ -2,7 +2,7 @@
   "name": "back",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A Strapi application for backend",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,21 +11,25 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "knex": "0.21.18",
+    "sqlite3": "5.0.0",
     "strapi": "3.6.6",
     "strapi-admin": "3.6.6",
-    "strapi-utils": "3.6.6",
-    "strapi-plugin-content-type-builder": "3.6.6",
-    "strapi-plugin-content-manager": "3.6.6",
-    "strapi-plugin-users-permissions": "3.6.6",
-    "strapi-plugin-email": "3.6.6",
-    "strapi-plugin-upload": "3.6.6",
-    "strapi-plugin-i18n": "3.6.6",
     "strapi-connector-bookshelf": "3.6.6",
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0"
+    "strapi-plugin-content-manager": "3.6.6",
+    "strapi-plugin-content-type-builder": "3.6.6",
+    "strapi-plugin-email": "3.6.6",
+    "strapi-plugin-i18n": "3.6.6",
+    "strapi-plugin-migrate": "^3.6.3",
+    "strapi-plugin-oembed": "^0.4.0",
+    "strapi-plugin-responsive-image": "^0.4.0",
+    "strapi-plugin-sync-roles-permissions": "^0.4.3",
+    "strapi-plugin-upload": "3.6.6",
+    "strapi-plugin-users-permissions": "3.6.6",
+    "strapi-utils": "3.6.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Abraham Yusuf"
   },
   "strapi": {
     "uuid": "a40044af-79e3-48cd-b4f4-0140e8f732a8"
