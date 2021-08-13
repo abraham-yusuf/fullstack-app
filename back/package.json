@@ -29,6 +29,7 @@
     "strapi-plugin-users-permissions": "3.6.6",
     "strapi-plugin-zeasy-image-api": "^1.2.1",
     "strapi-provider-email-nodemailer": "^3.6.6",
+    "strapi-provider-upload-cloudinary": "^3.6.6",
     "strapi-utils": "3.6.6"
   },
   "author": {
