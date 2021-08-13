@@ -19,6 +19,7 @@
     "strapi-plugin-ckeditor5": "^1.12.0",
     "strapi-plugin-content-manager": "3.6.6",
     "strapi-plugin-content-type-builder": "3.6.6",
+    "strapi-plugin-documentation": "3.6.6",
     "strapi-plugin-email": "3.6.6",
     "strapi-plugin-i18n": "3.6.6",
     "strapi-plugin-migrate": "^3.6.3",
