@@ -22,7 +22,7 @@
     "strapi-plugin-documentation": "3.6.6",
     "strapi-plugin-email": "3.6.6",
     "strapi-plugin-i18n": "3.6.6",
-    "strapi-plugin-migrate": "^3.6.3",
+    "strapi-plugin-migrate": "^3.6.25",
     "strapi-plugin-oembed": "^0.4.0",
     "strapi-plugin-responsive-image": "^0.4.0",
     "strapi-plugin-sync-roles-permissions": "^0.4.3",
