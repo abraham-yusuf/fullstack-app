@@ -6942,12 +6942,7 @@ node-abi@^2.21.0:
   dependencies:
     semver "^5.4.1"
 
-node-addon-api@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-2.0.0.tgz#f9afb8d777a91525244b01775ea0ddbe1125483b"
-  integrity sha512-ASCL5U13as7HhOExbT6OlWJJUV/lLzL2voOSP1UVehpRD8FbSrSDjfScK/KwAvVTI5AS6r4VwbOMlIqtvRidnA==
-
-node-addon-api@^3.1.0, node-addon-api@^3.2.0:
+node-addon-api@^3.0.0, node-addon-api@^3.1.0, node-addon-api@^3.2.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.2.1.tgz#81325e0a2117789c0128dab65e7e38f07ceba161"
   integrity sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
@@ -9450,12 +9445,12 @@ sprintf-js@^1.1.1:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
   integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
 
-sqlite3@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/sqlite3/-/sqlite3-5.0.0.tgz#1bfef2151c6bc48a3ab1a6c126088bb8dd233566"
-  integrity sha512-rjvqHFUaSGnzxDy2AHCwhHy6Zp6MNJzCPGYju4kD8yi6bze4d1/zMTg6C7JI49b7/EM7jKMTvyfN/4ylBKdwfw==
+sqlite3@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/sqlite3/-/sqlite3-5.0.2.tgz#00924adcc001c17686e0a6643b6cbbc2d3965083"
+  integrity sha512-1SdTNo+BVU211Xj1csWa8lV6KM0CtucDwRyA0VHl91wEH1Mgh7RxUpI4rVvG7OhHrzCSGaVyW5g8vKvlrk9DJA==
   dependencies:
-    node-addon-api "2.0.0"
+    node-addon-api "^3.0.0"
     node-pre-gyp "^0.11.0"
   optionalDependencies:
     node-gyp "3.x"
@@ -9722,7 +9717,7 @@ strapi-generate@3.6.6:
     reportback "^2.0.2"
     strapi-utils "3.6.6"
 
-strapi-helper-plugin@3.6.6, strapi-helper-plugin@^3.4.6:
+strapi-helper-plugin@3.6.6, strapi-helper-plugin@^3.4.6, strapi-helper-plugin@^3.6.3:
   version "3.6.6"
   resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.6.6.tgz#bf63ff22d51cf1b503195309146f7872c00379ec"
   integrity sha512-bepyrXBg5AI4iJ0JxU4uL529DV2ia1+o3KELVgl6g5d+GQx+ImJ2SsqsDvz4y3hIw2oaINF0ltmXDque1LbpSw==
@@ -9890,10 +9885,10 @@ strapi-plugin-i18n@3.6.6:
     pluralize "8.0.0"
     strapi-utils "3.6.6"
 
-strapi-plugin-migrate@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-migrate/-/strapi-plugin-migrate-3.6.3.tgz#13edae75ec3af078a131f7c007e10e17449e2e98"
-  integrity sha512-MvHyDpWrQthG+EDUQajcolLfvaBDPv48Q90bG/vo24/rh66sTW+XOssmg+dwtapKhE0uPfylFrrdE0ACI/mUJA==
+strapi-plugin-migrate@^3.6.25:
+  version "3.6.25"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-migrate/-/strapi-plugin-migrate-3.6.25.tgz#1f6012a9956a4ab94b5a86a5f51919b069667edf"
+  integrity sha512-sgnDd2AWiuKCUjVvnWHFVRdUEpmXPuBD8L7walm3oWpm9EkqfUZ+ofpYeDYdzZ0xaFuygN3nhf6LE6FiRDWb2Q==
 
 strapi-plugin-oembed@^0.4.0:
   version "0.4.0"
@@ -9909,6 +9904,14 @@ strapi-plugin-oembed@^0.4.0:
     react-intl "^5.8.8"
     react-router-dom "^5.2.0"
     strapi-helper-plugin "^3.4.6"
+
+strapi-plugin-preview-content@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-preview-content/-/strapi-plugin-preview-content-1.3.1.tgz#1e08107a3f3eea6acb1c0c3d8b3b23a48bee992e"
+  integrity sha512-TdlC+vjUSVe6AiDT8S7eDNnbTyYQHTKvPs4oDcnYWQlDL27YfKse7U4dVvCJYiWwIetLWoeLUCwkDcc6WQ6whw==
+  dependencies:
+    strapi-helper-plugin "^3.6.3"
+    strapi-utils "^3.6.3"
 
 strapi-plugin-responsive-image@^0.4.0:
   version "0.4.0"
@@ -10044,7 +10047,7 @@ strapi-provider-upload-local@3.6.6:
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.6.tgz#fa6ed4057a49993add238a679e531d3bc02150d6"
   integrity sha512-EqHXhaR8u0/+vB93KUTRvUvAuKhsGWWwYf6Nl1T6K4N0IyCQPsQFXkJT8A+oN553He8+4V8fkXts9LRyoa/aBA==
 
-strapi-utils@3.6.6, strapi-utils@^3.6.2, strapi-utils@^3.6.5:
+strapi-utils@3.6.6, strapi-utils@^3.6.2, strapi-utils@^3.6.3, strapi-utils@^3.6.5:
   version "3.6.6"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.6.6.tgz#f002d96f025c9fae2f8fb4d2628e28c12037385f"
   integrity sha512-vZavsM/6CVNecoznhqJBBOrrDMbPMSLSLqA2GgQ0DiimVLLsMC070uaROmRCkKw+DTgLqZDzi2mih0kKJXruTg==
