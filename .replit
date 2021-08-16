@@ -1,2 +1,2 @@
 language = "bash"
-run = "cd back && yarn && yarn develop"
+run = "yarn && yarn develop"
