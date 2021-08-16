@@ -9999,10 +9999,10 @@ strapi-plugin-i18n@3.6.6:
     pluralize "8.0.0"
     strapi-utils "3.6.6"
 
-strapi-plugin-migrate@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-migrate/-/strapi-plugin-migrate-3.6.3.tgz#13edae75ec3af078a131f7c007e10e17449e2e98"
-  integrity sha512-MvHyDpWrQthG+EDUQajcolLfvaBDPv48Q90bG/vo24/rh66sTW+XOssmg+dwtapKhE0uPfylFrrdE0ACI/mUJA==
+strapi-plugin-migrate@^3.6.25:
+  version "3.6.25"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-migrate/-/strapi-plugin-migrate-3.6.25.tgz#1f6012a9956a4ab94b5a86a5f51919b069667edf"
+  integrity sha512-sgnDd2AWiuKCUjVvnWHFVRdUEpmXPuBD8L7walm3oWpm9EkqfUZ+ofpYeDYdzZ0xaFuygN3nhf6LE6FiRDWb2Q==
 
 strapi-plugin-oembed@^0.4.0:
   version "0.4.0"
