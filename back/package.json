@@ -14,8 +14,8 @@
   "dependencies": {
     "knex": "0.95.10",
     "sqlite3": "5.0.2",
-    "strapi": "3.6.7",
-    "strapi-admin": "3.6.8",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.7",
     "strapi-connector-bookshelf": "3.6.7",
     "strapi-plugin-ckeditor5": "^1.13.0",
     "strapi-plugin-content-manager": "3.6.8",
